@@ -2,7 +2,9 @@ favorite_animals = ["cat" , "rabbit" ,"dog" , "monkey" , "fox" , "wolf"]
 print (f"{favorite_animals}")
 print (favorite_animals[1])
 favorite_animals.remove('monkey')
+print(favorite_animals)
 favorite_animals.append("shark")
+print (favorite_animals)
 for animal in favorite_animals:
     print("i love", animal)
 numbers = [1, 2, 3, 4, 5]
